@@ -43,7 +43,7 @@ public class SumaRangoTests {
     void testSumaRangoNumerosImpares() {
         Integer resultado = SumaRango.resolverImpares(0, 10);
 
-        Assertions.assertEquals(30, resultado);
+        Assertions.assertEquals(25, resultado);
     }
 
     @Test

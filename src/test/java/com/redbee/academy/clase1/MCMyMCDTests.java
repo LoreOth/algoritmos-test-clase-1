@@ -11,7 +11,7 @@ public class MCMyMCDTests {
     void testMcm() {
         Integer resultado = MCMyMCD.mcm(6, 9);
 
-        Assertions.assertEquals(3, resultado);
+        Assertions.assertEquals(18, resultado);
     }
 
     @Test
